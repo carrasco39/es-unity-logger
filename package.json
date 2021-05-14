@@ -1,9 +1,30 @@
 ﻿{
   "name": "com.carrasco39.esunitylogger",
-  "displayName": "ESUnityLogger",
   "version": "1.0.0",
-  "unity": "2020.1",
+  "displayName": "ESUnityLogger",
   "description": "ElasticSearch Unity Logger",
+  "unity": "2020.1",
+  "category": "Utility",
+  "type": "Library",
   "license": "MIT",
-  "dependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carrasco39/es-unity-logger",
+    "directory": ""
+  },
+  "dependencies": {
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+    "jillejr.newtonsoft.json-for-unity": "^12.0.101"
+  },
+  "keywords": [
+    "elasticsearch",
+    "logger",
+    "elastic",
+    "elk"
+  ],
+  "author": {
+    "name": "Carrasco",
+    "email": "henrique.carrasco.1@gmail.com",
+    "url": "https://github.com/carrasco39"
+  }
 }
