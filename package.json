@@ -4,6 +4,9 @@
   "displayName": "ESUnityLogger",
   "description": "ElasticSearch Unity Logger",
   "unity": "2020.1",
+  "category": "Utility",
+  "type": "Library",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/carrasco39/es-unity-logger",
@@ -19,9 +22,6 @@
     "elastic",
     "elk"
   ],
-  "author": {
-    "name": "Carrasco",
-    "email": "henrique.carrasco.1@gmail.com",
-    "url": "https://github.com/carrasco39"
-  }
+  "author": "Carrasco",
+  "homepage": "https://github.com/carrasco39"
 }
