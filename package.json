@@ -4,9 +4,14 @@
   "displayName": "ESUnityLogger",
   "description": "ElasticSearch Unity Logger",
   "unity": "2020.1",
-  "unityRelease": "17f1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carrasco39/es-unity-logger",
+    "directory": ""
+  },
   "dependencies": {
-    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask"
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+    "jillejr.newtonsoft.json-for-unity": "^12.0.101"
   },
   "keywords": [
     "elasticsearch",
