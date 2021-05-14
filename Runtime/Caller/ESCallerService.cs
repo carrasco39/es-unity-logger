@@ -19,7 +19,7 @@ namespace ESUnityLogger
         public static async UniTask<bool> BulkAsync(ElasticBulkMessage msg)
         {
             string indexJson = "{\"index\": {\"_index\": \"" + msg.index + "\"}}\n";
-            string json = indexJson + NDJsonHelper.ToNDJson(msg.messages);
+            string json = NDJsonHelper.ToNDJson(indexJson,msg.messages);
 
             await UniTask.SwitchToMainThread();
             var response = await instance.caller.PostNDJson($"{msg.index}/_bulk", json);

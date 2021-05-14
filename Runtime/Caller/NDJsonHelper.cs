@@ -18,11 +18,12 @@ namespace ESUnityLogger
             return result;
         }
         
-        public static string ToNDJson<T>(IEnumerable<T> items)
+        public static string ToNDJson<T>(string index,IEnumerable<T> items)
         {
             string result = "";
             foreach (var item in items)
             {
+                result += index;
                 result += JsonConvert.SerializeObject(item);
 
                 

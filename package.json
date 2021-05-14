@@ -1,6 +1,6 @@
 {
   "name": "com.carrasco39.esunitylogger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "ESUnityLogger",
   "description": "ElasticSearch Unity Logger",
   "unity": "2020.1",

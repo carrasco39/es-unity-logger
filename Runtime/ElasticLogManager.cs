@@ -63,7 +63,7 @@ namespace ESUnityLogger
             };
         }
 
-        private static ElasticReturn DefaultTransformer(LogCacheMessage cache)
+        public static ElasticReturn DefaultTransformer(LogCacheMessage cache)
         {
             CustomElasticReturn returnMessage = new CustomElasticReturn();
 
@@ -83,7 +83,7 @@ namespace ESUnityLogger
                 SessionId = sessionId.ToString(),
                 MessageIndex = messageIndex++,
                 Application = "Unity",
-                Source = SystemInfo.deviceName +"-"+ SystemInfo.deviceUniqueIdentifier
+                Source = "Default"
             };
 
             return returnMessage;
